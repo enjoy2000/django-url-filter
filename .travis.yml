@@ -15,16 +15,12 @@ addons:
 
 language: python
 python:
-  - "3.6-dev"
-  - "3.7-dev"
-  - "2.7"
-  - "pypy"
-  - "pypy3.5-7.0"
-
+  - "3.9"
+before_install:
+- pip install poetry
 install:
-  - pip install tox-travis
-  - pip install coveralls==1.1
-
-script: tox
+- poetry install
+script:
+- poetry run pytest
 
 after_success: coveralls

@@ -25,12 +25,12 @@ requirements = req + ["setuptools"]
 test_requirements = req + dev_req
 
 setup(
-    name="django-url-filter",
+    name="dj-url-filter",
     version=__version__,
     author=__author__,
     description="Django URL Filter provides a safe way to filter data via human-friendly URLs.",
     long_description="\n\n".join([readme, history, authors, licence]),
-    url="https://github.com/miki725/django-url-filter",
+    url="https://github.com/miki725/dj-url-filter",
     license="MIT",
     packages=find_packages(exclude=["test_project*", "tests*"]),
     install_requires=requirements,
@@ -42,7 +42,6 @@ setup(
         "Natural Language :: English",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Development Status :: 2 - Pre-Alpha",
