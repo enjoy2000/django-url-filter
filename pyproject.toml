@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj-url-filter"
-version = "0.4.1"
+version = "0.4.2"
 description = "Django URL Filter provides a safe way to filter data via human-friendly URLs."
 authors = ["Hat Dao <enjoy3013@gmail.com>"]
 license = "MIT"
@@ -15,7 +15,7 @@ packages = [{include = "url_filter"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-django = "^3.2.4"
+django = ">=3.2.4"
 cached-property = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
