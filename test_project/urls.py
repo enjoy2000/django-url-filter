@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, unicode_literals
 
-import debug_toolbar
 from django.conf import settings
 from django.conf.urls import url
 from django.urls import include
@@ -74,6 +73,3 @@ router.register("generic/b", g_api.ModelBViewSet, "generic|b")
 
 urlpatterns = router.urls
 
-
-if settings.DEBUG:
-    urlpatterns += [url(r"^__debug__/", include(debug_toolbar.urls))]

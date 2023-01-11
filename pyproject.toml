@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj-url-filter"
-version = "0.4.2"
+version = "0.4.3"
 description = "Django URL Filter provides a safe way to filter data via human-friendly URLs."
 authors = ["Hat Dao <enjoy3013@gmail.com>"]
 license = "MIT"
@@ -45,8 +45,6 @@ sphinx-autobuild = "^2021.3.14"
 sphinx-rtd-theme = "^1.1.1"
 watchdog = "^2.2.1"
 werkzeug = "^2.2.2"
-django-debug-toolbar = "^3.8.1"
-django-debug-toolbar-alchemy = "^0.1.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
