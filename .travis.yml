@@ -1,5 +1,5 @@
-dist: xenial
 sudo: false
+dist: focal
 branches:
   only:
     - master
@@ -8,15 +8,20 @@ cache:
   pip: true
   directories:
     - $HOME/.cache/pip
+    - $HOME/.cache/poetry
     - $HOME/.cache/pre-commit
 addons:
-  apt_packages:
-    - sqlite3
+  apt:
+    packages:
+      - sqlite3
 
 language: python
 python:
   - "3.9"
+  - "3.10"
+  - "3.11"
 before_install:
+- sqlite3 --version
 - pip install poetry
 install:
 - poetry install
