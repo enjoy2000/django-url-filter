@@ -41,8 +41,8 @@ For example::
 Requirements
 ------------
 
-* Python 2.7, 3.x, pypy or pypy3
-* Django 1.8+ (there are plans to support older Django versions)
+* Python 3.9+
+* Django 4.2+ (there are plans to support older Django versions)
 * Django REST Framework 2 or 3 (only if you want to use DRF integration)
 
 Installing
