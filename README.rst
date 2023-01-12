@@ -2,8 +2,8 @@
 Django URL Filter
 =================
 
-.. image:: https://badge.fury.io/py/django-url-filter.svg
-   :target: http://badge.fury.io/py/django-url-filter
+.. image:: https://badge.fury.io/py/dj-url-filter.svg
+   :target: http://badge.fury.io/py/dj-url-filter
 .. image:: https://readthedocs.org/projects/django-url-filter/badge/?version=latest
    :target: http://django-url-filter.readthedocs.io/en/latest/?badge=latest
 .. image:: https://codecov.io/gh/enjoy2000/django-url-filter/branch/master/graph/badge.svg
