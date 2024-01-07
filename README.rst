@@ -8,6 +8,8 @@ Django URL Filter
    :target: http://django-url-filter.readthedocs.io/en/latest/?badge=latest
 .. image:: https://codecov.io/gh/enjoy2000/django-url-filter/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/enjoy2000/django-url-filter
+.. image:: https://img.shields.io/travis/com/enjoy2000/django-url-filter
+   :alt: Travis (.com)
 
 Django URL Filter provides a safe way to filter data via human-friendly URLs.
 
